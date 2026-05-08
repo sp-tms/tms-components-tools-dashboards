@@ -1,0 +1,59 @@
+{
+	"name" : "Dashboards TMS",
+	"route" : "dashboards",
+	"description" : "<p>TMS dashboards</p>",
+	"module_type" : "components",
+	"app_type" : "tms",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-tms/tms-components-tools-dashboards",
+	"class" : "Apps\\Tms\\Components\\Dashboards\\DashboardsComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.15",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Transport Management System",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-tms/tms"
+		},
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"menu" : 
+	{
+		"dashboards" : 
+		{
+			"title" : "dashboards",
+			"icon" : "dashboard",
+			"link" : "dashboards"
+		},
+		"seq" : "1"
+	},
+	"widgets" : [],
+	"settings" : 
+	{
+		"maxWidgetsPerDashboard" : 10
+	}
+}
