@@ -24,7 +24,14 @@
 		},
 		"packages" : [],
 		"middlewares" : [],
-		"views" : [],
+		"views" : 
+		[
+			{
+				"name" : "Dashboards",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-tms/tms-views-tools-default-dashboards"
+			}
+		],
 		"externals" : 
 		{
 			"composer" : 
@@ -52,6 +59,7 @@
 		"seq" : "1"
 	},
 	"widgets" : [],
+	"filters" : [],
 	"settings" : 
 	{
 		"maxWidgetsPerDashboard" : 10
